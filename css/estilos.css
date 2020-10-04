@@ -1,0 +1,81 @@
+body{
+  /* definicion de los estulos en el archivo de css */
+    background: white; /* color del fondo */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+  /* Trabajamos en el tamaño de los parrafos  */
+  font-size: 20px;
+}
+
+li{
+  list-style: none; /* lista sin estilo  */
+  margin-right: 25px; /*espaciado a la derecha*/
+
+}
+
+#primero{
+  /*font-size: 25px;*/
+  color:green;
+}
+
+
+
+.menu{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+ul{
+  display: flex;
+
+}
+
+
+
+.titular{
+text-align: center;
+margin-top: 100px;
+}
+
+
+h1{
+  font-size: 60 px;
+  margin:0;
+}
+
+h2{
+  font-size: 25px;
+  margin-bottom: 20px; /* lo que este debajo baja los pixeles que le digamos*/
+}
+
+
+a{ /* boton */
+  font-size: 20px;
+  background: #5cb8ff;
+  padding: 15px 20px 15px 20px; /*top  right bottom left, en este sentido*/
+  color: white;
+
+}
+
+header {
+  background-image: url(../images/fondo.jpg); /*la imagen esta en una carpera del mismo nivel que css*/
+  height: 100vh; /*ocupa toda la pagina*/
+  background-position: center center;  /*centramos la pagina*/
+  background-size: 100% 100%;  /* no deja zonas ocultas*/
+}
+
+.contenedor{
+
+  max-width: 1280px;
+  width: 90%;
+  margin:auto;
+
+}
+
+
