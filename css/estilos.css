@@ -95,11 +95,20 @@ p{
 .contenedorSobremi{
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
 
 }
 
 .contenedorParrafoBoton{
 width: 42%;
 
+}
+
+.contenedorParrafoBoton p{
+  font-size: 20px;
+}
+
+.contenedorParrafoBoton a{
+  margin-top: 20px;
+  display: inline-block; /* pasar elementos en linea a bloque */
 }
